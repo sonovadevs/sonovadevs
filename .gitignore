@@ -1,0 +1,89 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# iOS SDK Identity
+#
+ios/AudioNova/SonovaMobileSdkConfigurationDev.plist
+ios/AudioNova/SonovaMobileSdkConfigurationTest.plist
+ios/AudioNova/SonovaMobileSdkConfigurationProd.plist
+
+
+# Android SDK Identity
+#
+android/app/src/main/res/raw/sonovamobilesdk_configuration_dev.xml
+android/app/src/main/res/raw/sonovamobilesdk_configuration_test.xml
+android/app/src/main/res/raw/sonovamobilesdk_configuration_prod.xml
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# env files
+.env
+.env.test
+.env.storybook
+.env.prod
+
+# Android signing keystore
+*.jks
+
+# JAVA HPROF FILES
+*.hprof
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Test artefacts
+.jest
+
+coverage/*
+coverage.xml
