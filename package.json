@@ -70,7 +70,7 @@
     "react": "17.0.2",
     "react-hook-form": "7.16.1",
     "react-i18next": "^11.11.0",
-    "react-native": "0.65.0",
+    "react-native": "0.69.0",
     "react-native-animated-linear-gradient": "^1.2.2",
     "react-native-app-auth": "github:digital-detox/react-native-app-auth",
     "react-native-background-timer": "^2.4.1",
